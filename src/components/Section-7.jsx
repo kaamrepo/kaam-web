@@ -3,7 +3,7 @@ import React from 'react'
 function Testimonials() {
   return (
     <div className="mt-8 w-full">
-    <h2 className="text-2xl font-bold mb-4">Customer Testimonials</h2>
+    <h2 className="text-2xl font-bold mb-4 text-center">Customer Testimonials</h2>
     <div className="grid gap-4">
       <div className="bg-white rounded-lg shadow-md p-4">
         <blockquote className="text-lg font-semibold leading-snug text-justify">

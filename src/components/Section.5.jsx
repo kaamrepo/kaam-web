@@ -4,7 +4,7 @@ import React from 'react'
  function Investors() {
   return (
     <div className="mt-8 w-full">
-    <h2 className="text-2xl font-bold mb-4">Seeking Investors</h2>
+    <h2 className="text-2xl font-bold mb-4 text-center">Seeking Investors</h2>
     <div className="bg-white rounded-lg shadow-md p-4">
       <p className="text-muted-foreground text-sm">
         We are actively seeking investors to help us expand our reach and impact. If you are interested in

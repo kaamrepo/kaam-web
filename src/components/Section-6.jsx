@@ -3,7 +3,7 @@ import React from 'react'
 function Partners() {
     return (
         <div className="mt-8 w-full">
-            <h2 className="text-2xl font-bold mb-4">Our Partners</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">Our Partners</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 ">
                 <div className="bg-white rounded-lg shadow-md p-4 flex  justify-center">
                     <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202310/bv-acharya-3-768x520-sixteen_nine.jpg" width={100} height={50} alt="Partner 1" className="object-contain" />
