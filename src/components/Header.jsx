@@ -28,7 +28,7 @@ const Header = () => {
         <div className='flex'>
           <span className='text-white'><Briefcase /></span>
           <a href="#" className="text-white text-xl font-bold ml-4">
-            Kaampe
+            KaamPe
           </a>
         </div>
         
