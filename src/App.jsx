@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Home } from './pages/Home';
+import RightPane from './pages/RightPane';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-     <Home/>
+      <RightPane/>
     </div>
   )
 }

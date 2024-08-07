@@ -1,41 +1,37 @@
 import React from 'react'
 
- function Stats() {
+ function Section_4() {
   return (
-    <div className="mt-8 w-full">
-                <h2 className="text-2xl font-bold mb-4 text-center">Our Stats</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div>
+       <div className="grid gap-4">
+              <div className="bg-white rounded-lg shadow-md p-4">
+                <h2 className="text-2xl font-bold text-card-foreground">Recommended Jobs</h2>
+                <div className="grid gap-4">
                   <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">1.2 Lakhs+</h3>
-                    <p className="text-muted-foreground text-sm">Available Jobs</p>
+                    <h3 className="text-lg font-bold">Construction Foreman</h3>
+                    <p className="text-muted-foreground text-sm">Mumbai, India</p>
+                    <p className="font-medium">₹100,000 - ₹150,000 per month</p>
                   </div>
                   <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">12,000+</h3>
-                    <p className="text-muted-foreground text-sm">Total Employers</p>
+                    <h3 className="text-lg font-bold">Factory Supervisor</h3>
+                    <p className="text-muted-foreground text-sm">Chennai, India</p>
+                    <p className="font-medium">₹100,000 - ₹150,000 per month</p>
                   </div>
                   <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">10 Lakhs+</h3>
-                    <p className="text-muted-foreground text-sm">Total Workers</p>
+                    <h3 className="text-lg font-bold">Warehouse Manager</h3>
+                    <p className="text-muted-foreground text-sm">Kolkata, India</p>
+                    <p className="font-medium">₹100,000 - ₹150,000 per month</p>
                   </div>
                   <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">100,000+</h3>
-                    <p className="text-muted-foreground text-sm">Medical Insurance Provided</p>
-                  </div>
-                  <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">₹20.5 Crores</h3>
-                    <p className="text-muted-foreground text-sm">Loans Disbursed</p>
-                  </div>
-                  <div className="bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-2xl font-bold mb-2">₹68+ Crores</h3>
-                    <p className="text-muted-foreground text-sm">Salaries Distributed</p>
+                    <h3 className="text-lg font-bold">Mining Equipment Operator</h3>
+                    <p className="text-muted-foreground text-sm">Hyderabad, India</p>
+                    <p className="font-medium">₹100,000 - ₹150,000 per month</p>
                   </div>
                 </div>
               </div>
-
-              
-
-              
+    </div>
+    </div>
   )
 }
 
-export default Stats;
+export default Section_4;

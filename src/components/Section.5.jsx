@@ -1,37 +1,39 @@
 import React from 'react'
 
-
- function Investors() {
+export default function Section_5() {
   return (
-    <div className="mt-8 w-full">
-    <h2 className="text-2xl font-bold mb-4 text-center">Seeking Investors</h2>
-    <div className="bg-white rounded-lg shadow-md p-4">
-      <p className="text-muted-foreground text-sm">
-        We are actively seeking investors to help us expand our reach and impact. If you are interested in
-        learning more about our mission and investment opportunities, please connect with us via LinkedIn or
-        email. We would be thrilled to discuss how we can work together to create a brighter future for the
-        rural Indian workforce.
-      </p>
-      <div className="mt-4 flex justify-center">
-        <a
-          href="#"
-          className="inline-flex h-10 items-center justify-center rounded-md bg-green-700 text-white px-6 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-green-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-          prefetch={false}
-        >
-          Connect on LinkedIn
-        </a>
-        <a
-          href="#"
-          className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 ml-4"
-          prefetch={false}
-        >
-          Email Us
-        </a>
-      </div>
+    <div>
+       <div className="bg-white rounded-lg shadow-md p-4">
+                <h2 className="text-2xl font-bold text-card-foreground">Recommended Employees</h2>
+                <div className="grid gap-4">
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
+                    <div>
+                      <p className="font-medium">राम कुमार</p>
+                      <p className="text-muted-foreground text-sm">दिल्ली, ₹30,000 - ₹40,000 प्रति माह</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
+                    <div>
+                      <p className="font-medium">सुनीता देवी</p>
+                      <p className="text-muted-foreground text-sm">मुंबई, ₹35,000 - ₹45,000 प्रति माह</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
+                    <div>
+                      <p className="font-medium">अजय कुमार</p>
+                      <p className="text-muted-foreground text-sm">चेन्नई, ₹40,000 - ₹50,000 प्रति माह</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-md p-4">
+                <div className="mt-4 flex justify-center">
+                  <button className="font-medium text-white bg-green-700 rounded-lg p-2 hover:bg-green-500">Allow Location</button>
+                </div>
+              </div>
     </div>
-  </div>
   )
 }
-
-
-export default Investors;
