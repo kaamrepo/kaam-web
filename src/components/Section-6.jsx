@@ -6,28 +6,24 @@ export const Section_6 = () => {
          <div className="bg-white rounded-lg shadow-md p-4">
                 <h2 className="text-2xl font-bold text-card-foreground">Recent Recruits</h2>
                 <div className="grid gap-4">
-                  <div className="flex items-center gap-4">
-                    {/* <Avatar>
-                      <AvatarImage src="/placeholder-user.jpg" alt="@sha" />
-                    </Avatar> */}
+                 
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
                     <div>
+                    
                       <p className="font-medium">Ravi Kumar</p>
                       <p className="text-muted-foreground text-sm">Joined Acme Construction 1 hour ago</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-4">
-                    {/* <Avatar>
-                      <AvatarImage src="/placeholder-user.jpg" alt="@sha" />
-                    </Avatar> */}
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
                     <div>
                       <p className="font-medium">Priya Sharma</p>
                       <p className="text-muted-foreground text-sm">Joined Globex Manufacturing 30 minutes ago</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-4">
-                    {/* <Avatar>
-                      <AvatarImage src="/placeholder-user.jpg" alt="@sha" />
-                    </Avatar> */}
+                  <div className="flex items-center gap-4 ">
+                    <img className='h-10 w-10' src='https://generated.vusercontent.net/placeholder-user.jpg'></img>
                     <div>
                       <p className="font-medium">Arun Patel</p>
                       <p className="text-muted-foreground text-sm">Joined Stark Logistics 45 minutes ago</p>
